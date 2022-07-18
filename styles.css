@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/*Nav bar*/
+/*Start Nav bar*/
 header {
   background-color: #1b3039;
   display: flex;
@@ -67,14 +67,69 @@ header h3 {
     padding: 10px 0px;
   }
 }
+/*End Nav bar*/
 
 body {
-  background-color: antiquewhite;
+  background-color: white;
   min-height: 100vh;
   width: 100%;
 }
+/*Start skill carrusel*/
 
-/*Contact Form*/
+.slider {
+  width: auto;
+  height: 100px;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  animation: slideshow 15s linear infinite;
+}
+
+.slide img {
+  height: 70px;
+  padding: 0 70px 0 70px;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slider::before,
+.slider::after {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotatez(180deg);
+}
+/*End Skill carrusel*/
+
+/*Start Contact Form*/
 .form {
   background-color: white;
   margin: auto;
@@ -128,11 +183,12 @@ body {
     padding: 3.5em 1em;
   }
 }
+/*End Contact Form*/
 footer {
   background-color: blue;
   text-align: center;
 }
 
 .logo {
-  width: 50px;
+  height: 70px;
 }
