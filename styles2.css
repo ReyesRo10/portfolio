@@ -11,13 +11,14 @@ body {
   overflow-x: hidden;
 }
 
+/*Start Nav bar*/
 .wrapper {
   width: 100vw;
   height: 100vh;
   background-color: #191c32;
   color: #fff;
 }
-/*Start Nav bar*/
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -55,3 +56,41 @@ body {
   transition: ease-in 0.3s;
 }
 /*End Nav bar*/
+
+/*Start Main info section*/
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+span {
+  color: aqua;
+}
+
+.dowload-cv {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.dowload-cv:hover {
+  background-color: #fff;
+}
+
+.main img {
+  width: 350px;
+  height: 520px;
+  border: 7px solid aqua;
+}
+/*End Main info section*/
