@@ -15,7 +15,7 @@ body {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: #191c32;
+  background-color: #1d3156;
   color: #fff;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .brand span {
-  color: aqua;
+  color: #ffc410;
 }
 .menu {
   display: flex;
@@ -47,12 +47,12 @@ body {
 }
 
 .menu .active {
-  color: aqua;
+  color: #ffc410;
 }
 
 .menu a:hover {
-  background-color: aqua;
-  color: #191c32;
+  background-color: #ffc410;
+  color: #1d3156;
   transition: ease-in 0.3s;
 }
 /*End Nav bar*/
@@ -72,13 +72,13 @@ h1 {
 }
 
 span {
-  color: aqua;
+  color: #ffc410;
 }
 
 .dowload-cv,
 .project-details {
   padding: 10px 20px;
-  background-color: aqua;
+  background-color: #ffc410;
   border: none;
   border-radius: 20px;
   margin-top: 10px;
@@ -93,7 +93,7 @@ span {
 .main img {
   width: 350px;
   height: 520px;
-  border: 7px solid aqua;
+  border: 7px solid #ffc410;
 }
 /*End Main info section*/
 
@@ -123,7 +123,7 @@ span {
 .divider {
   height: 4px;
   width: 60px;
-  background-color: aqua;
+  background-color: #ffc410;
   margin-top: 10px;
   margin-bottom: 2em;
 }
@@ -137,7 +137,7 @@ span {
 .portfolio {
   width: 100vw;
   color: #fff;
-  background-color: #191c32;
+  background-color: #1d3156;
 }
 .portfolio-headings {
   width: 100vw;
@@ -197,7 +197,7 @@ span {
 
 .project-details a {
   text-decoration: none;
-  color: #191c32;
+  color: #1d3156;
 }
 /*End Projects section*/
 
@@ -222,8 +222,8 @@ span {
   margin-bottom: 1em;
   background: none;
   border: none;
-  border-bottom: 1px solid #191c32;
-  color: #191c32;
+  border-bottom: 1px solid #1d3156;
+  color: #1d3156;
 }
 
 .form textarea {
@@ -231,7 +231,7 @@ span {
   background: none;
   color: #191c32;
   padding: 1.5em;
-  border: 1px solid #191c32;
+  border: 1px solid #1d3156;
 }
 
 .btn-submit {
@@ -239,7 +239,7 @@ span {
   margin: 1em;
   border: none;
   text-transform: uppercase;
-  background-color: aqua;
+  background-color: #ffc410;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -252,7 +252,7 @@ span {
   align-items: center;
   width: 100vw;
   height: 200px;
-  background-color: aqua;
+  background-color: #ffc410;
 }
 
 .footer-content h2 {
