@@ -290,6 +290,7 @@ span {
 
 .footer h5 {
   font-size: 1.5em;
+  text-align: center;
 }
 
 .social-network {
@@ -300,7 +301,12 @@ span {
 }
 
 .social-network i {
-  font-size: 1.5em;
+  font-size: 2em;
+}
+
+.social-network a {
+  text-decoration: none;
+  color: black;
 }
 
 /*End Footer Section*/
