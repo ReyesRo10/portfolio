@@ -79,7 +79,8 @@ span {
 }
 
 .dowload-cv,
-.project-details {
+.project-details,
+.form-cta {
   padding: 10px 20px;
   background-color: #ffc410;
   border: none;
@@ -103,10 +104,10 @@ span {
 /*Start About section*/
 .about {
   margin: 0 auto;
-  width: 80vw;
-  height: 80vh;
+  width: 90vw;
+  height: 90vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 30% 70%;
   align-items: center;
 }
 
@@ -117,7 +118,7 @@ span {
 }
 
 .about-info {
-  grid-column: 5/10;
+  grid-column: 2/3;
   padding: 3em;
 }
 
@@ -214,46 +215,62 @@ span {
 /*End Projects section*/
 
 /*Start Contact Form*/
+.contact-section {
+  display: flex;
+}
+
 .contact-headings h2 {
   font-size: 3em;
 }
-.container-contact {
-  padding: 3em;
-  margin: 0 auto;
-}
 
 .form {
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  margin-top: 2em;
+  background-color: #fff;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  align-items: center;
+  margin-top: 10em;
+  margin-bottom: 5em;
 }
 
-.form input {
-  padding: 10px 20px;
-  margin-bottom: 1em;
-  background: none;
+.form-container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.9em;
+  margin-bottom: 0.4em;
+}
+.form-input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
   border: none;
-  border-bottom: 1px solid #1d3156;
-  color: #1d3156;
+  border: 1px solid #ffc410;
+  border-radius: 0.2em;
 }
 
-.form textarea {
-  height: 150px;
-  background: none;
-  color: #191c32;
-  padding: 1.5em;
-  border: 1px solid #1d3156;
+.form-input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+.form-cta {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500px;
 }
 
-.btn-submit {
-  padding: 10px 20px;
-  margin: 1em;
-  border: none;
-  text-transform: uppercase;
-  background-color: #ffc410;
-  border-radius: 20px;
-  cursor: pointer;
+@media (max-width: 450px) {
+  .form {
+    padding: 2em 0.5em;
+  }
 }
 /*End Contact Form*/
 /*Start Footer Section*/
