@@ -1,9 +1,10 @@
 import './App.css';
+import NavBar from './components/NavBar.jsx';
 
 function App() {
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>HOla mundo</h1>
+      <NavBar />
     </>
   );
 }
